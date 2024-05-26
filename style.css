@@ -1,0 +1,163 @@
+
+body { 
+    margin: 0;
+    background-color: #000000}
+
+/*-------Header--------*/
+.img-container{
+    height: 90vh;
+}
+.img-txt{
+    position: relative;
+    bottom: 300px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    color: white;
+}
+.back-img{
+    height: 90%;
+    width: 100%;
+    -webkit-mask-image: linear-gradient(black, transparent);
+}
+/* Picture+personal info */
+.personal-conteiner {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pic-personal{
+    margin-top: 10vh;
+}
+.personal {
+    width: 250px;
+}
+.personal-text{
+    font-size: 18px ;
+    color: beige;
+    margin-top: 5vh;
+    font-family: "EB Garamond", serif;
+    font-weight: 700;
+    text-align: center;
+}
+.pic-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic {
+    height: 290px; 
+    border: none;
+    border-radius: 20px;
+}
+.pic:hover{
+    border: green 0.5px;
+    box-shadow: 1px 1px 20px 5px green;
+}
+.card-cover {
+    background-size: cover;
+    text-align: center;
+}
+h4 {
+    text-shadow: #000000 3px 3px 3px;
+}
+.background-color {
+    background-color: #0e0e0e;
+}
+.color-li {
+    color: white;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #2dc000;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none; }
+
+.clickable-contact-items {
+    background-color: beige;
+   border: solid 3px rgb(0, 0, 0) ;
+   height: 60px;
+   width: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   margin: 10px 20px 20px 0;
+   transition: 0.5s;
+}
+.clickable-contact-items:hover {
+    background-color: #2dc000;
+   border: solid 3px rgb(0, 0, 0) ;
+   height: 64px;
+   width: 64px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   margin: 10px 22px 22px 0;
+   transition: 0.5s;
+}
+.card{
+    color: beige;
+    background-color: rgb(22, 22, 22);
+
+}
+#aboutMe{
+    font-family: "EB Garamond", serif;
+    font-weight: 700;
+}
+.aboutMe-text-box{
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+
+.rest-of-text-hidden {
+    display: none;
+}
+#button-id {
+    padding: 10px; 
+    font-size: 18px; 
+    font-weight: 700; 
+    color: beige; 
+    border: none;  
+    background-color: #1b1b1b; 
+    margin-top: 3px;
+    margin-bottom: 25vh;
+    transition: 0.5s;
+}
+#button-id:hover{
+    padding: 13px; 
+    font-size: 19px; 
+    font-weight: 700; 
+    color: #1b1b1b; 
+    border: none;  
+    border-radius: 35px;
+    background-color: #2dc000; 
+    margin-top: 3px;
+    margin-bottom: 25vh;
+    box-shadow: #1b1b1b;
+    transition: 0.5s;
+}
+
+.green-contact-button {
+    background-color: #1b1b1b;
+    color: beige;
+    border: none;
+    transition: 0.5s;
+
+}
+.green-contact-button:hover {
+    background-color: #2dc000;
+    color: #1b1b1b;
+    transition: 0.5s;
+    font-weight: 700;
+
+}
+
